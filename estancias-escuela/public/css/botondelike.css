@@ -1,0 +1,20 @@
+.like-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  align-items: center;
+}
+
+.heart-icon {
+  margin-right: 5px;
+  color: gray;
+}
+
+.like-button.liked .heart-icon {
+  color: red;
+}
+
+.like-count {
+  margin-left: 5px;
+}
